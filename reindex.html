@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쏘카</title>
+    <style>
+        *{
+        
+            margin: 0;
+            padding: 0;
+            text-decoration: none; 
+            /* 밑줄없애기 */
+            border-collapse: collapse;
+            /* 표에서 구분하는거 없애기 */
+            list-style: none;
+            /* 리스트에서 점 나오는거 없애기 */
+            font-family:'Noto Sans KR', sans-serif;
+        }
+        .wrap{
+            width: 100%;
+            height: auto;
+        }
+        .intro{
+            background-image: url("img/main_visual_fullscreen.jpg");
+            width: 100% ;
+            height: 780px;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        h1{
+             width: 100px;
+             margin-left: 30px;
+             
+        }
+        a{
+            margin-right: 30px;
+            margin-top: 5px;
+        }
+        .socar{
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            margin: 300px auto auto 250px ;
+        }
+        .main{
+            width: 800px;
+            height: 800px;
+           
+        }
+        .information{
+            /* width: 400px; */
+            height: 400px;
+            transform: translate(50%);
+            margin: 50px;
+            line-height: 50px;
+            /* text-align: center; */
+            padding-top: 100px;
+            padding-bottom: 200px;
+        }
+        figure > img{
+            margin-top: 50px;
+        }
+       h3{
+        font-size: 35px;
+        padding-bottom: 20px;
+       }
+       p{
+        color: gray;
+        opacity: 60%;
+        line-height: 25px;
+        text-shadow: 30%;
+
+       }
+    </style>
+
+</head>
+<body>
+    <div class="wrap">
+       <div class="intro">
+            <header>
+               <a href="#">
+               <h1>
+                <img src="img/logo-w.svg" alt="logo">
+               </h1>
+               </a>
+               <a href="#">
+                hamberger
+               </a>
+            </header>
+            <div class="socar">
+              <h2>
+                차가 필요한<br>모든 순간, 쏘카
+              </h2>
+            </div>
+        </div>    
+        <div class="main">
+            <section>
+                <article class="information">
+                    <h3>24시간 언제나</h3>
+                    <p>한밤중이나 주말에도 스마트폰으로
+                        <br>
+                        시간에 구애받지 않고
+                        <br>
+                        쏘카와 함께 이동하세요.
+                    </p>
+                    <figure>
+                       <img src="img/usp_a.jpg" alt="차와 남자" width="700px" height="500px">
+                    </figure>
+                </article>
+                <article class="information">
+                    <h3>원하는 곳에서</h3>
+                    <p>내 주변 3분 거리 쏘카존에서
+                        <br>
+                        혹은 내가 있는 곳으로 쏘카를 불러
+                        <br>
+                        어디서나 편하게 출발하세요.
+                    </p>
+                    <figure>
+                       <img src="img/usp_b.jpg" alt="차와 남자" width="700px" height="500px">
+                    </figure>
+                </article>
+                <article class="information">
+                    <h3>필요한 시간만큼</h3>
+                    <p>간단한 장보기부터 주말여행까지
+                        <br>
+                        10분 단위로 원하는 만큼만 이용하세요.
+                    </p>
+                    <figure>
+                       <img src="img/usp_c.jpg" alt="차와 남자" width="700px" height="500px">
+                    </figure>
+                </article>
+                <article class="information">
+                    <h3>다양한 차종을</h3>
+                    <p>연인과의 드라이브부터 가족 캠핑까지
+                        <br>
+                        상황에 맞게 50여 종의 차량을
+                        <br>
+                        선택해서 이용하세요.
+                    </p>
+                    <figure>
+                       <img src="img/usp_d.jpg" alt="차와 남자" width="700px" height="500px">
+                    </figure>
+                </article>
+                
+            </section>
+        </div>
+      
+    </div>
+</body>
+</html>
